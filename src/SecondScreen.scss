@@ -1,0 +1,7 @@
+.textHiddenContainer .textHidden{
+    @apply hidden duration-200;
+}
+
+.textHiddenContainer:hover .textHidden, .textHiddenContainer:focus .textHidden{
+    @apply inline;
+}

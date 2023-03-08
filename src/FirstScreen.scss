@@ -1,0 +1,12 @@
+.hiddenFirstScreen.active{
+    animation: hidden 300ms ease-out forwards;
+}
+.hiddenFirstScreen.active *{
+    @apply hidden;
+}
+
+@keyframes hidden{
+    100%{
+        @apply h-0 hidden;
+    }
+}

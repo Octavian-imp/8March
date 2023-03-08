@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$dark: #131313;
+
+body {
+  @apply selection:bg-orange-500 selection:text-white;
+  background-color: $dark;
+  margin: 0;
+  font-family: Consolas, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  min-height: 100vh;
+}
+input:focus,input:active, input:focus-within, input:focus-visible{
+  outline: 0;
+}
+input{
+  color: $dark;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root, #root > .App{
+  @apply min-h-[100vh]
+}
