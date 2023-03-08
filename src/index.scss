@@ -27,5 +27,5 @@ code {
 }
 
 #root, #root > .App{
-  @apply min-h-[100vh]
+  min-height: 100vh;
 }
