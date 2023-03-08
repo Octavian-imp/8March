@@ -11,7 +11,7 @@ function SecondScreen() {
         Поздравляю тебя {name.replace(/"/gi, "")} с 8 марта{" "}
         <GiCottonFlower className="inline-block text-red-500" />
         <span className="textHidden">
-          . Если ты оказался парнем, то GG {":)"}
+          . Если ты оказался парнем, то увы сегодня не твой день {":)"}
         </span>
         <span className="text-cyan-500"> {"/>"}</span>
       </div>
